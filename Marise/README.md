@@ -13,5 +13,4 @@ In these examples we'll use this example dataframe.
 | Description | Command |
 | --- | --- |
 | Get the `name` column from the dataframe | `df['name']` or `df.name`. |
-| Get the second row from the dataframe | This gets the row by using the "pure" row index `df.iloc[1]`. 
-                                          But you can also get the same row by using the dataframe's indices e.g. `df.loc[542]` |
+| Get the second row from the dataframe | This gets the row by using the "pure" row index `df.iloc[1]`. But you can also get the same row by using the dataframe's indices e.g. `df.loc[542]` |
