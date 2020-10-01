@@ -14,3 +14,17 @@ In these examples we'll use this example dataframe.
 | --- | --- |
 | Get the `name` column from the dataframe | `df['name']` or `df.name`. |
 | Get the second row from the dataframe | This gets the row by using the "pure" row index `df.iloc[1]`. But you can also get the same row by using the dataframe's indices e.g. `df.loc[542]` |
+|  |  |
+
+
+### Sparse Matrix
+
+In these examples we'll use this example sparse matrix.
+
+[[1, 2, 3, 4],
+[5, 6, 7, 8], 
+[9, 10, 11, 12]]
+
+| Description | Command |
+| --- | --- |
+| Get the `name` column from the dataframe | `df['name']` or `df.name`. |
